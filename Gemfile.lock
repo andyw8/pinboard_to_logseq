@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    debug (1.7.0)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
+    io-console (0.5.11)
+    irb (1.5.1)
+      reline (>= 0.3.0)
+    language_server-protocol (3.17.0.2)
+    prettier_print (1.1.0)
+    reline (0.3.1)
+      io-console (~> 0.5)
+    ruby-lsp (0.3.7)
+      language_server-protocol (~> 3.17.0)
+      sorbet-runtime
+      syntax_tree (>= 4.0.2, < 5.0.0)
+    sorbet (0.5.10595)
+      sorbet-static (= 0.5.10595)
+    sorbet-runtime (0.5.10595)
+    sorbet-static (0.5.10595-universal-darwin-21)
+    sorbet-static-and-runtime (0.5.10595)
+      sorbet (= 0.5.10595)
+      sorbet-runtime (= 0.5.10595)
+    syntax_tree (4.3.0)
+      prettier_print (>= 1.0.2)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  debug
+  ruby-lsp
+  sorbet-static-and-runtime
+
+BUNDLED WITH
+   2.3.26
